@@ -1,5 +1,8 @@
 import { useState } from "react";
 import Pet from "../interfaces/Pet";
+
+
+
 export function PetInfo() {
 
     const [pet, setPet] = useState<Pet>({ name: "Fluffy", breed: "German Shephard" });
@@ -13,3 +16,4 @@ export function PetInfo() {
         </div>
     )
 }
+export default PetInfo;
